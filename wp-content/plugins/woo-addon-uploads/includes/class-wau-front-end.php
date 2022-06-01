@@ -69,11 +69,10 @@ if ( ! class_exists( 'wau_front_end_class' ) ) {
 			if ( isset( $addon_settings['wau_enable_addon'] ) && '1' === $addon_settings['wau_enable_addon'] && $enabled && $category_passed ) {
 
 				$upload_label = __( 'Upload an image', 'woo-addon-uploads' );
-				$is_enable_upload_label = true;
 
 				$file_upload_template =
 					'<div class="wau_wrapper_div">
-						'.($is_enable_upload_label ? '<label for="wau_file_addon">' . $upload_label . '</label>' : '').'
+						<label for="wau_file_addon">' . $upload_label . '</label>
 						<input type="file" name="wau_file_addon" id="wau_file_addon" accept="image/*" class="wau-auto-width wau-files" />
 					</div>';
 				echo $file_upload_template;

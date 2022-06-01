@@ -78,7 +78,7 @@ add_action( 'woocommerce_after_add_to_cart_button', 'bbloomer_product_price_reca
  
 function bbloomer_product_price_recalculate() {
    global $product;
-   echo '<div id="subtot" style="display:block;font-size:16px;font-weight:600;color:#35C3F2;">Total: <span></span></div>';
+   echo '<div id="subtot" style="display:none;font-size:16px;font-weight:600;color:#35C3F2;">Total: <span></span></div>';
    $price = $product->get_price();
    $currency = get_woocommerce_currency_symbol();
    wc_enqueue_js( "      
