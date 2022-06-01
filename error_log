@@ -1,0 +1,5 @@
+[14-May-2022 14:23:40 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/foufundr/public_html/1stop4print/wp-includes/class-wp-query.php on line 4121
+[14-May-2022 14:23:40 UTC] PHP Warning:  Attempt to read property "post_title" on null in /home1/foufundr/public_html/1stop4print/wp-includes/class-wp-query.php on line 4123
+[14-May-2022 14:23:40 UTC] PHP Warning:  Attempt to read property "post_name" on null in /home1/foufundr/public_html/1stop4print/wp-includes/class-wp-query.php on line 4125
+[14-May-2022 16:56:02 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home1/foufundr/public_html/1stop4print/wp-content/themes/woodmart/inc/modules/mobile-optimization.php on line 18
+[14-May-2022 16:56:04 UTC] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home1/foufundr/public_html/1stop4print/wp-content/themes/woodmart/inc/modules/mobile-optimization.php on line 18

@@ -1,0 +1,8 @@
+[14-May-2022 01:06:10 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/foufundr/public_html/1stop4print/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/foufundr/public_html/1stop4print/wp-includes/blocks/index.php on line 9
+[14-May-2022 04:29:14 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/foufundr/public_html/1stop4print/wp-includes/blocks/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/foufundr/public_html/1stop4print/wp-includes/blocks/index.php on line 9

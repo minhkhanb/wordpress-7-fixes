@@ -1,0 +1,6 @@
+1 Account Admin
+Username: kingfoxteam
+Password: KingFoxTeam@333
+
+2 Convert Database 
+From: localhost/wordpress to new link

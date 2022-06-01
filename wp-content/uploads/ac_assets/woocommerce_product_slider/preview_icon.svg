@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64"><g stroke-width="1" transform="translate(0.5, 0.5)"><circle data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" cx="14" cy="56" r="6" stroke-linejoin="miter"></circle>
+<circle data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" cx="56" cy="56" r="6" stroke-linejoin="miter"></circle>
+<polyline fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" points="10,10 60,10 
+	54,42 2,42 " stroke-linejoin="miter"></polyline>
+<line data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" x1="6" y1="34" x2="18" y2="34" stroke-linejoin="miter"></line>
+<line data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" x1="10" y1="26" x2="22" y2="26" stroke-linejoin="miter"></line>
+<polyline fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" points="2,2 10,2 10,18 
+	" stroke-linejoin="miter"></polyline></g></svg>
