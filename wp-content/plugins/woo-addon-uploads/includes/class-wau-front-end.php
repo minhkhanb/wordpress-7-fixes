@@ -29,6 +29,7 @@ if ( ! class_exists( 'wau_front_end_class' ) ) {
 			add_filter( 'wau_category_checks', array( $this, 'wau_check_category_allowed' ), 10, 2 );
 
 			add_action( 'woocommerce_cart_item_removed', array( &$this, 'wau_remove_cart_action' ), 10, 2 );
+
 		}
 
 		function load_scripts(){
@@ -67,11 +68,12 @@ if ( ! class_exists( 'wau_front_end_class' ) ) {
 
 			if ( isset( $addon_settings['wau_enable_addon'] ) && '1' === $addon_settings['wau_enable_addon'] && $enabled && $category_passed ) {
 
-				$upload_label = __( 'Upload an image123: ', 'woo-addon-uploads' );
+				$upload_label = __( 'Upload an image', 'woo-addon-uploads' );
+				$is_enable_upload_label = true;
 
 				$file_upload_template =
 					'<div class="wau_wrapper_div">
-						<label for="wau_file_addon">' . $upload_label . '</label>
+						'.($is_enable_upload_label ? '<label for="wau_file_addon">' . $upload_label . '</label>' : '').'
 						<input type="file" name="wau_file_addon" id="wau_file_addon" accept="image/*" class="wau-auto-width wau-files" />
 					</div>';
 				echo $file_upload_template;
